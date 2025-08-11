@@ -360,3 +360,24 @@ const counter = outerFunction();
 counter(); 
 counter();
 counter();
+
+
+// Loops in JS
+// For loop example
+for (let i = 1; i <= 3; i++) {
+  console.log(`For loop iteration: ${i}`);
+}
+
+// While loop example
+let j = 1;
+while (j <= 3) {
+  console.log(`While loop iteration: ${j}`);
+  j++;
+}
+
+// Do-while loop example
+let k = 1;
+do {
+  console.log(`Do-while loop iteration: ${k}`);
+  k++;
+} while (k <=3);

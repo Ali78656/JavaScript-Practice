@@ -1,12 +1,3 @@
-// Loops
- 
-// let counter=1;
-// while(counter <= 10){
-//     console.log(counter);
-//     counter++;
-    
-// };
-
 
 let InputE = document.querySelector(".num");
 let btnE = document.querySelector(".btn");
@@ -48,7 +39,6 @@ const game = () => {
       attempts = 0;
     }
   }
-
   // Clear the input field for the next guess
   InputE.value = "";
 };
@@ -57,6 +47,7 @@ btnE.addEventListener("click", game);
 
 
 // Guess Number Game
+
 // let minNum=1;
 // let maxNum=100;
 // let answer=Math.floor(Math.random()*(maxNum-minNum))+minNum;
